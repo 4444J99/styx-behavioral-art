@@ -28,7 +28,7 @@ Accountability reframed as live, interactive performance art. The public ledger 
 
 ## Structure
 
-```
+```text
 seed.yaml                              # ORGANVM automation contract
 Makefile                               # Local test command
 concepts/
@@ -43,7 +43,14 @@ tests/test_pitch_artifact.py           # Regression coverage for the pitch artif
 
 Concept phase (`PARKED`). No application runtime yet -- this repo currently holds design documents and a static pitch artifact that will evolve into prototypes as the Styx theory stabilizes.
 
-ESCAPE VELOCITY audit receipt `EV-2026-06-11-200005` records the verdict `park (design-only)`. The repository remains parked until ORGAN-I theory stabilizes; the first activation candidate is a p5/three.js stake-commitment visualization feeding the downstream ORGAN-III product.
+### ESCAPE VELOCITY Activation Audit
+
+- **Date:** 2026-06-11
+- **Receipt:** `EV-2026-06-11-200005`
+- **Verdict:** `park (design-only)`
+- **Boundary:** `organvm-ii-poiesis`
+- **Notes:** High lineage value as the template for I→II derivation feeding `organvm-iii-ergon/peer-audited--behavioral-blockchain`.
+- **Next Action:** Remain parked until ORGAN-I theory stabilizes; first activation candidate is a p5/three.js prototype of stake-commitment visualization feeding the blockchain product's front-end.
 
 ## Testing
 
