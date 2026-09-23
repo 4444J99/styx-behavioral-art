@@ -28,4 +28,9 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v24
         with:
           globs: "**/*.md"
-          config: .markdownlint-cli2.yaml
+          config: |
+            {
+              "MD013": false,
+              "MD033": false,
+              "MD041": false
+            }
