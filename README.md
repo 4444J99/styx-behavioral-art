@@ -28,7 +28,7 @@ Accountability reframed as live, interactive performance art. The public ledger 
 
 ## Structure
 
-```
+```text
 seed.yaml                              # ORGANVM automation contract
 Makefile                               # Local test command
 concepts/
